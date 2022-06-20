@@ -1,0 +1,65 @@
+#container{
+    border: solid 7px black;
+    width: 350px;
+    padding: 20px;
+    border-radius: 200px;
+    background-color:blanchedalmond;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 50px;
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    transform: skew(0deg);
+    /* -webkit-text-stroke 1px black; */
+    
+    
+    
+}
+
+#container label {
+    border: 3px solid black;
+    border-radius: 8px;
+    background-color: midnightblue;
+    padding: 2px;
+    width: 200px;
+    align-self: center;
+    color: bisque;
+}
+
+#button{
+    margin-top: 15px;
+    width: 110px;
+    height: 30px;
+    background-color:midnightblue;
+    border-radius: 5px;
+    align-self: center;
+    color: bisque;
+}
+
+.everything{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    /* background-color: lightcoral; */
+    background-image: url("../images/chinese\ dragon.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+#age {
+    width: 130px;
+    height: 30px;
+    border-radius:5px;
+    font-size: 15px;
+
+
+}
+#days {
+    width: 130px;
+    height: 30px;
+    border-radius:5px;
+    font-size: 15px;
+}
